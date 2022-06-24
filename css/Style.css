@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #454546;
+}
+
+.commonpadding {
+  padding: 150px 50px 70px 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 88px;
+}
+
+h2 {
+  font-size: 52px;
+  color: #007bff;
+}
+
+.subhead {
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+
+.navbar li {
+  padding-bottom: 9px;
+}
+
+.list-social-icons a {
+  color: #343a40;
+}
+
+.list-social-icons a:hover {
+  color: #007bff;
+}
+
+.list-social-icons i {
+  margin: 20px 15px 0px 0px;
+  font-size: 50px;
+}
+
+.list-icons {
+  font-size: 48px;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #007bff;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #343a40;
+  text-decoration: none;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.5px;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #8fc6fd;
+}
+
+.resume-item {
+  margin-bottom: 20px;
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  /* padding: 80px 0px; */
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+#education .subhead {
+  color: #007bff;
+}
+
+#skills h3 {
+  padding: 10px 0px;
+}
+
+#skills li {
+  padding: 5px 0px;
+  font-size: 17px;
+}
+
+#skills i {
+  color: #007bff;
+}
+
+#interests li {
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+#interests i {
+  color: #007bff;
+}
+
+#portfolio img {
+  width: 100%;
+  box-shadow: 0px 0px 11px 2px rgba(119, 119, 119, 0.589);
+}
+
+
+#about p {
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+#experience h2,
+#education h2,
+#skills h2 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 325px) {
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .subhead {
+    font-size: 11px;
+    padding-bottom: 5px;
+  }
+
+  .list-social-icons i {
+    margin: 20px 15px 0px 0px;
+    font-size: 40px;
+  }
+}
+
+
+@media (min-width: 325px) {
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .subhead {
+    font-size: 11px;
+    padding-bottom: 5px;
+  }
+
+  .list-social-icons i {
+    margin: 20px 15px 0px 0px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 425px) {
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  #experience h2,
+  #education h2,
+  #skills h2 {
+    margin-bottom: 30px;
+  }
+
+  .subhead {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+
+  .list-social-icons i {
+    margin: 20px 15px 0px 0px;
+    font-size: 45px;
+  }
+}
+
+
+@media (min-width: 540px) {
+  h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  #experience h2,
+  #education h2,
+  #skills h2 {
+    margin-bottom: 30px;
+  }
+
+  .subhead {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+
+  .list-social-icons i {
+    margin: 20px 15px 0px 0px;
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 288px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  body {
+    padding-top: 0;
+    padding-left: 250px;
+  }
+
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    height: 100vh;
+  }
+
+
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 8px;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 160px;
+    max-height: 160px;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+
+}
